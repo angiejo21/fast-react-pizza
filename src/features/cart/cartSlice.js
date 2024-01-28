@@ -34,7 +34,7 @@ const cartSlice = createSlice({
     },
   },
 });
-//ACTION CREATORS (funzioni che semplificano il dispatch dal reducer)
+//ACTION CREATORS (funzioni che modificano lo state e semplificano il dispatch dal reducer)
 export const {
   addItem,
   deleteItem,
